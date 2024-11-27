@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-one {
+    background-color: #1f2937;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    padding: 4px 40px 16px 40px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.textimg {
+    display: flex;
+    justify-content: space-between;
+}
+
+.p1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+img {
+    width: 500px;
+    height: 300px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 16px 36px;
+    border: none;
+    border-radius: 8px;
+}
