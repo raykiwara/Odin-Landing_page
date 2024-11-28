@@ -8,7 +8,7 @@ body {
     background-color: #1f2937;
     color: white;
     font-family: "Times New Roman", Times, serif;
-    padding: 4px 40px 16px 40px;
+    padding: 4px 72px 16px 72px;
 }
 
 .header {
@@ -37,16 +37,12 @@ a {
 .textimg {
     display: flex;
     justify-content: space-between;
+    gap: 32px;
 }
 
 .p1 {
     font-size: 48px;
     font-weight: 900;
-}
-
-img {
-    width: 500px;
-    height: 300px;
 }
 
 button {
@@ -55,4 +51,55 @@ button {
     padding: 16px 36px;
     border: none;
     border-radius: 8px;
+}
+
+.section-two {
+    text-align: center;
+    padding: 4px 40px 16px 40px;
+}
+
+.heading {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    margin-bottom: 64px;
+}
+
+.item1, .item2, .item3, .item4 {
+    max-width: 200px;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 64px 0 64px 0;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    align-self: center;
+    gap: 8px;
+}
+
+.q1 {
+    font-size: 36px;
+    font-variant: light italic;
+    color: #1F2937;
+}
+
+.q2 {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 900;
 }
