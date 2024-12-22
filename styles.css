@@ -103,3 +103,26 @@ button {
     justify-content: flex-end;
     font-weight: 900;
 }
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    margin: 64px;
+}
+
+.calltoaction {
+    display: flex;
+    background-color: #3882F6;
+    color:#E5E7EB;
+    border-radius: 4px;
+    font-size: 24px;
+    padding: 32px 64px;
+    justify-content: space-between;
+    gap: 104px;
+    align-items: center;
+}
+
+.t1 {
+    font-weight: 900;
+}
+
