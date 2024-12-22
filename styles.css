@@ -2,6 +2,10 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-wrap: wrap;
 }
 
 .section-one {
@@ -124,5 +128,14 @@ button {
 
 .t1 {
     font-weight: 900;
+}
+
+.section-five {
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
 }
 
