@@ -116,6 +116,8 @@ button {
 
 .calltoaction {
     display: flex;
+    flex: 1;
+    flex-wrap: nowrap;
     background-color: #3882F6;
     color:#E5E7EB;
     border-radius: 4px;
