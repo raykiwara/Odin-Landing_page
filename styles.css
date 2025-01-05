@@ -6,12 +6,12 @@ body {
     flex-direction: column;
     flex: 1;
     flex-wrap: wrap;
+    font-family: 'Roboto';
 }
 
 .section-one {
     background-color: #1f2937;
     color: white;
-    font-family: "Times New Roman", Times, serif;
     padding: 4px 72px 16px 72px;
 }
 
@@ -94,6 +94,7 @@ button {
     max-width: 900px;
     align-self: center;
     gap: 8px;
+    font-style: italic;
 }
 
 .q1 {
